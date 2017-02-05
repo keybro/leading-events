@@ -1,0 +1,22 @@
+{
+  "name": "LP leading",
+  "description": "foundation and flexbox",
+  "main": "index.html",
+  "authors": [
+    "KeyBro"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/keybro/leading-events",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "foundation-sites": "^6.3.0"
+  }
+}

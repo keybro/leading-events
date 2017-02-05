@@ -1,0 +1,11 @@
+.DS_STORE
+node_modules/
+bower_components/
+
+
+# Thumbnails
+._*
+
+### Sass ###
+.sass-cache/
+*.css.map
