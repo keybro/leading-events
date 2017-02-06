@@ -17,6 +17,14 @@
   z-index: 1;
   background-color: rgba(81, 111, 130, 0.8); }
 
+.human {
+  background: url("../images/alex_.png") no-repeat;
+  position: absolute;
+  top: 128px;
+  bottom: 0;
+  left: 40px;
+  right: 0; }
+
 /*! normalize-scss | MIT/GPLv2 License | bit.ly/normalize-scss */
 /* Document
        ========================================================================== */
