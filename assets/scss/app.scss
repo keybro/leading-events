@@ -1,9 +1,12 @@
-// import my custom settings
-@import "custom";
 
 // import foundation settings
 @import "settings";
 @import "foundation"; 
+
+// import my custom settings
+@import "custom"; 
+
+
 
 //@include foundation-everything(true);  
 @include foundation-global-styles;  

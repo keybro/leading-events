@@ -1,16 +1,22 @@
 @charset "UTF-8";
-.intro {
-  position: relative;
-  height: 565px;
-  background: url("/assets/images/header.jpg") no-repeat;
-  background-size: cover; }
-
 /**
  * Foundation for Sites by ZURB
  * Version 6.3.0
  * foundation.zurb.com
  * Licensed under MIT Open Source
  */
+.intro {
+  position: relative;
+  height: 100vh;
+  background: url("/assets/images/header.jpg") no-repeat 100% top;
+  background-size: cover; }
+
+.navigation {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  background-color: rgba(81, 111, 130, 0.8); }
+
 /*! normalize-scss | MIT/GPLv2 License | bit.ly/normalize-scss */
 /* Document
        ========================================================================== */
@@ -1663,7 +1669,7 @@ kbd {
   .menu.nested {
     margin-left: 1rem; }
   .menu .active > a {
-    background: get-color(primary);
+    background: #1779ba;
     color: #fefefe; }
   .menu.menu-bordered li {
     border: 1px solid #e6e6e6; }
