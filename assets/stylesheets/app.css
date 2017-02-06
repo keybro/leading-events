@@ -8,7 +8,7 @@
 .intro {
   position: relative;
   height: 100vh;
-  background: url("/assets/images/header.jpg") no-repeat 100% top;
+  background: url("assets/images/header.jpg") no-repeat 100% top;
   background-size: cover; }
 
 .navigation {
