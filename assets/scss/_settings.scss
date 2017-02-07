@@ -56,8 +56,8 @@ $foundation-palette: (
   warning: #ffae00,
   alert: #cc4b37,
 );
-$primary-color: #516f82; 
-$light-blue: #516f82;
+
+$light-blue: #476880;
 //$light-gray: #e6e6e6;
 //$medium-gray: #cacaca;
 //$dark-gray: #8a8a8a;
@@ -245,7 +245,7 @@ $anchor-color: $white;
 //$button-padding: 0.85em 1em;
 //$button-margin: 0 0 $global-margin 0;
 //$button-fill: solid;
-//$button-background: $primary-color;
+$button-background: $light-blue;
 //$button-background-hover: scale-color($button-background, $lightness: -15%);
 //$button-color: $white;
 //$button-color-alt: $black;
@@ -615,7 +615,7 @@ $menu-item-color-active: $white;
 //// -----------  
 // 
 //$topbar-padding: 0.5rem;
-$topbar-background: $primary-color;
+$topbar-background: $light-blue;
 //$topbar-submenu-background: $topbar-background;
 //$topbar-title-spacing: 0.5rem 2rem 0.5rem 0;
 //$topbar-input-width: 200px;
