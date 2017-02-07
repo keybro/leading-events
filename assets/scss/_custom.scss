@@ -1,24 +1,61 @@
 .intro {
     position: relative;
-  	height: 100vh;
-	background: url("../images/header.jpg") no-repeat 100% top;
+    background: url("../images/header.jpg") no-repeat 0 top;
     background-size: cover;
-}
 
+    &__wrapper {
+      height: 100vh;
+    }
+}
 .navigation {
     position: fixed;
-    width: 100%;
-    z-index: 1;
+    width: 100%; 
     background-color: rgba($light-blue, 0.8);
+    z-index: 1;
+
 }
 
-.human {
-    background: url("../images/alex_.png") no-repeat;
-    position: absolute;
-    top: 128px;
-    bottom: 0;
-    left: 40px;
-    right: 0;
+
+
+.form_in {
+	padding: 1px 20px 20px 20px;
+	background: #fff;
+	box-shadow: 0px 12px 40px -11px rgba(0, 0, 0, 0.75);
 }
-  
+
+.form_in h3 {
+	margin-top: -20px;
+	font-size: 23px;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.form_in .man,
+.form_in .phone {
+	width: 222px;
+	padding: 10px 10px 10px 60px;
+	border-radius: 5px;
+	background: #dfdfdf;
+	color: #848484;
+	box-shadow: inset 0px 0px 2px 0px rgba(0, 0, 0, 0.5);
+	outline: none;
+	border: none;
+	font-size: 20px;
+	font-style: italic;
+	margin-bottom: 10px;
+	font-weight: lighter;
+}
+
+.form_in .man {
+	background: url(../img/man.png) 10px no-repeat;
+}
+.form_in .phone {
+	background: url(../img/phone.png) 10px no-repeat;
+}
+
+.form_in input[type="submit"] {
+	margin-left: 55px;
+	margin-top: 10px;
+}
+
  
