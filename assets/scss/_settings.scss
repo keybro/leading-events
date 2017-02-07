@@ -38,24 +38,25 @@
 //  33. Tabs
 //  34. Thumbnail
 //  35. Title Bar
-//  36. Tooltip
+//  36. Tooltip  
 //  37. Top Bar
 
-//@import 'util/util'; 
-//
+@import "./bower_components/foundation-sites/scss/util/util.scss";   
+//  
 //// 1. Global
 //// --------- 
-//
+//  
 //$global-font-size: 100%;
 //$global-width: rem-calc(1200);
 //$global-lineheight: 1.5;
-//$foundation-palette: (
-//  primary: #1779ba,
-//  secondary: #767676,
-//  success: #3adb76,
-//  warning: #ffae00,
-//  alert: #cc4b37,
-//);
+$foundation-palette: (
+  primary: #1779ba,
+  secondary: #767676,
+  success: #3adb76,
+  warning: #ffae00,
+  alert: #cc4b37,
+);
+$primary-color: #516f82; 
 $light-blue: #516f82;
 //$light-gray: #e6e6e6;
 //$medium-gray: #cacaca;
@@ -611,10 +612,10 @@ $menu-item-color-active: $white;
 //$tooltip-radius: $global-radius;
 //
 //// 37. Top Bar
-//// ----------- 
+//// -----------  
 // 
 //$topbar-padding: 0.5rem;
-$topbar-background: $light-blue;
+$topbar-background: $primary-color;
 //$topbar-submenu-background: $topbar-background;
 //$topbar-title-spacing: 0.5rem 2rem 0.5rem 0;
 //$topbar-input-width: 200px;

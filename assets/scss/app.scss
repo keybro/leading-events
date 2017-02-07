@@ -1,21 +1,20 @@
 
 // import foundation settings
-@import "settings";
-@import "foundation"; 
-
+@import "foundation";  
+@import "settings"; 
 // import my custom settings
 @import "custom"; 
-
+ 
  
 
-//@include foundation-everything(true);  
-@include foundation-global-styles;  
-@include foundation-flex-grid;
-@include foundation-flex-classes; 
-@include foundation-typography; 
-@include foundation-button;
+@include foundation-everything(true);  
+//@include foundation-global-styles;  
+//@include foundation-flex-grid;
+//@include foundation-flex-classes; 
+//@include foundation-typography; 
+//@include foundation-button;
 // @include foundation-forms;
- @include foundation-visibility-classes;
+// @include foundation-visibility-classes;
 // @include foundation-float-classes;
 // @include foundation-accordion;
 // @include foundation-accordion-menu;
@@ -30,7 +29,7 @@
 // @include foundation-flex-video;
 // @include foundation-label;
 // @include foundation-media-object;
- @include foundation-menu; 
+// @include foundation-menu; 
 // @include foundation-off-canvas;
 // @include foundation-orbit;
 // @include foundation-pagination;
@@ -42,6 +41,6 @@
 // @include foundation-table;
 // @include foundation-tabs;
 // @include foundation-thumbnail;
- @include foundation-title-bar;
+// @include foundation-title-bar;
 // @include foundation-tooltip;
- @include foundation-top-bar;
+// @include foundation-top-bar;
