@@ -13,19 +13,19 @@
   height: 100%;
   padding-top: 50px; }
 
-intro__visual {
+.intro__visual {
   position: relative; }
 
-.h1_text {
+.intro__visual::before {
+  content: "Ведущий мероприятий в Санкт-Петербурге";
   position: absolute;
-  top: 65px;
-  left: 345px;
-  right: 0;
-  bottom: 0; }
-
-.h1_text h1 {
+  top: 5%;
+  left: 40%;
   font-size: 42px;
   line-height: 42px; }
+  @media screen and (max-width: 39.9375em) {
+    .intro__visual::before {
+      display: none; } }
 
 .form_in {
   padding: 40px;

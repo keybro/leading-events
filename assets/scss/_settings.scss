@@ -41,7 +41,7 @@
 //  36. Tooltip  
 //  37. Top Bar
 
-@import "./bower_components/foundation-sites/scss/util/util.scss";   
+@import "./bower_components/foundation-sites/scss/util/util";   
 //  
 //// 1. Global
 //// --------- 
@@ -620,3 +620,4 @@ $topbar-background: $light-blue;
 //$topbar-title-spacing: 0.5rem 2rem 0.5rem 0;
 //$topbar-input-width: 200px;
 //$topbar-unstack-breakpoint: medium;
+
