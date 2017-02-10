@@ -5,6 +5,18 @@
  * foundation.zurb.com
  * Licensed under MIT Open Source
  */
+@font-face {
+  font-family: "Century Gothic";
+  src: url("../fonts/518310547-CG.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Century Gothic";
+  src: url("../fonts/244354249-CGBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal; }
+
 .intro {
   position: relative;
   background: url("../images/header.jpg") no-repeat;
@@ -19,8 +31,10 @@
 .intro__visual::before {
   content: "Ведущий мероприятий в Санкт-Петербурге";
   position: absolute;
-  top: 5%;
-  left: 40%;
+  top: 0;
+  left: 39%;
+  font-weight: 700;
+  color: #2d2d2d;
   font-size: 42px;
   line-height: 42px; }
   @media screen and (max-width: 39.9375em) {
@@ -489,7 +503,7 @@ body {
   margin: 0;
   padding: 0;
   background: #fefefe;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Century Gothic", Roboto, Arial, sans-serif;
   font-weight: normal;
   line-height: 1.5;
   color: #0a0a0a;
@@ -1113,7 +1127,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Century Gothic", Roboto, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   color: inherit;
