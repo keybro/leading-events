@@ -12,17 +12,25 @@
     font-style: normal; 
 }
 
+.top-bar {
+    position: fixed;
+    width: 100%;
+    background-color: rgba($light-blue, 0.71); 
+    z-index: 3;
+
+}
+
  .top-bar ul {
     background-color: transparent;
 }
 
 .intro { 
-    position: relative;
-    background: url("../images/header.jpg") no-repeat;
+    display: flex;
+    align-items: flex-end;
+    background: url("../images/header.jpg") no-repeat 100% top;
     background-size: cover; 
     background-attachment: fixed;
-    height: 100%;
-    padding-top: 50px; 
+    height: 100vh;
 }
 
 .intro__visual {
@@ -38,13 +46,17 @@
     color: #2d2d2d;
     font-size: 42px;
     line-height: 42px;
-
-@include breakpoint(small only) {
-    display: none;
-    }
 }
 
-
+@include breakpoint(small only) {
+    .intro__visual::before { 
+        display: none;
+    }
+    
+    .intro {
+           height: 100%;
+    }
+    }
 
 
 .form_in {

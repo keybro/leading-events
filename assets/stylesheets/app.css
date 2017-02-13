@@ -3411,8 +3411,6 @@ a.thumbnail {
   .top-bar,
   .top-bar ul {
     background-color: #476880; }
-  .top-bar ul ul {
-    background-color: #000; }
   .top-bar input {
     max-width: 200px;
     margin-right: 1rem; }
@@ -3654,16 +3652,22 @@ a.thumbnail {
   font-weight: bold;
   font-style: normal; }
 
+.top-bar {
+  position: fixed;
+  width: 100%;
+  background-color: rgba(71, 104, 128, 0.71);
+  z-index: 3; }
+
 .top-bar ul {
   background-color: transparent; }
 
 .intro {
-  position: relative;
-  background: url("../images/header.jpg") no-repeat;
+  display: flex;
+  align-items: flex-end;
+  background: url("../images/header.jpg") no-repeat 100% top;
   background-size: cover;
   background-attachment: fixed;
-  height: 100%;
-  padding-top: 50px; }
+  height: 100vh; }
 
 .intro__visual {
   position: relative; }
@@ -3677,9 +3681,12 @@ a.thumbnail {
   color: #2d2d2d;
   font-size: 42px;
   line-height: 42px; }
-  @media screen and (max-width: 39.9375em) {
-    .intro__visual::before {
-      display: none; } }
+
+@media screen and (max-width: 39.9375em) {
+  .intro__visual::before {
+    display: none; }
+  .intro {
+    height: 100%; } }
 
 .form_in {
   padding: 40px;
