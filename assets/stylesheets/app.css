@@ -5,71 +5,6 @@
  * foundation.zurb.com
  * Licensed under MIT Open Source
  */
-@font-face {
-  font-family: "Century Gothic";
-  src: url("../fonts/518310547-CG.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: "Century Gothic";
-  src: url("../fonts/244354249-CGBold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal; }
-
-.intro {
-  position: relative;
-  background: url("../images/header.jpg") no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 100%;
-  padding-top: 50px; }
-
-.intro__visual {
-  position: relative; }
-
-.intro__visual::before {
-  content: "Ведущий мероприятий в Санкт-Петербурге";
-  position: absolute;
-  top: 0;
-  left: 39%;
-  font-weight: 700;
-  color: #2d2d2d;
-  font-size: 42px;
-  line-height: 42px; }
-  @media screen and (max-width: 39.9375em) {
-    .intro__visual::before {
-      display: none; } }
-
-.form_in {
-  padding: 40px;
-  padding-top: 0;
-  background: #fff;
-  margin-bottom: 50px; }
-
-.form_in h3 {
-  padding-top: 30px;
-  font-size: 23px;
-  line-height: 32px;
-  text-align: center;
-  margin-bottom: 25px; }
-
-.form_in .man,
-.form_in .phone {
-  padding: 10px;
-  border-radius: 2px;
-  background: #dfdfdf;
-  color: #848484;
-  box-shadow: inset 0px 0px 2px 0px rgba(0, 0, 0, 0.5);
-  outline: none;
-  border: none;
-  font-size: 18px;
-  margin-bottom: 25px;
-  font-weight: 400; }
-
-.content {
-  margin-top: 50px; }
-
 /*! normalize-scss | MIT/GPLv2 License | bit.ly/normalize-scss */
 /* Document
        ========================================================================== */
@@ -3476,6 +3411,8 @@ a.thumbnail {
   .top-bar,
   .top-bar ul {
     background-color: #476880; }
+  .top-bar ul ul {
+    background-color: #000; }
   .top-bar input {
     max-width: 200px;
     margin-right: 1rem; }
@@ -3704,3 +3641,71 @@ a.thumbnail {
     order: 5; }
   .large-order-6 {
     order: 6; } }
+
+@font-face {
+  font-family: "Century Gothic";
+  src: url("../fonts/518310547-CG.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Century Gothic";
+  src: url("../fonts/244354249-CGBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal; }
+
+.top-bar ul {
+  background-color: transparent; }
+
+.intro {
+  position: relative;
+  background: url("../images/header.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+  padding-top: 50px; }
+
+.intro__visual {
+  position: relative; }
+
+.intro__visual::before {
+  content: "Ведущий мероприятий в Санкт-Петербурге";
+  position: absolute;
+  top: 0;
+  left: 39%;
+  font-weight: 700;
+  color: #2d2d2d;
+  font-size: 42px;
+  line-height: 42px; }
+  @media screen and (max-width: 39.9375em) {
+    .intro__visual::before {
+      display: none; } }
+
+.form_in {
+  padding: 40px;
+  padding-top: 0;
+  background: #fff;
+  margin-bottom: 50px; }
+
+.form_in h3 {
+  padding-top: 30px;
+  font-size: 23px;
+  line-height: 32px;
+  text-align: center;
+  margin-bottom: 25px; }
+
+.form_in .man,
+.form_in .phone {
+  padding: 10px;
+  border-radius: 2px;
+  background: #dfdfdf;
+  color: #848484;
+  box-shadow: inset 0px 0px 2px 0px rgba(0, 0, 0, 0.5);
+  outline: none;
+  border: none;
+  font-size: 18px;
+  margin-bottom: 25px;
+  font-weight: 400; }
+
+.content {
+  margin-top: 50px; }

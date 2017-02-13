@@ -4,7 +4,7 @@
 
 
 // import my custom settings
-@import "custom"; 
+
 
 
 @include foundation-everything(true);  
@@ -44,3 +44,5 @@
 // @include foundation-title-bar;
 // @include foundation-tooltip;
 // @include foundation-top-bar;
+
+@import "custom"; 

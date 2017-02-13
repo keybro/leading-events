@@ -12,6 +12,10 @@
     font-style: normal; 
 }
 
+ .top-bar ul {
+    background-color: transparent;
+}
+
 .intro { 
     position: relative;
     background: url("../images/header.jpg") no-repeat;
@@ -39,6 +43,9 @@
     display: none;
     }
 }
+
+
+
 
 .form_in {
 	padding: 40px;
