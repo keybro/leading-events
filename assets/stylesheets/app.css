@@ -3696,7 +3696,7 @@ a.thumbnail {
       line-height: 35px;
       font-weight: 600;
       padding: 0 50px 0 70px;
-      background-image: url("/assets/images/arrow.png"); }
+      background-image: url("../images/arrow.png"); }
   .intro__visual-large {
     position: relative;
     z-index: 2; }
