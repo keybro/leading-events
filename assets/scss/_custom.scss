@@ -12,16 +12,16 @@
     font-style: normal; 
 }
 
+   
 .top-bar {
     position: fixed;
     width: 100%;
     background-color: rgba($light-blue, 0.71); 
     z-index: 3;
 
-}
-
- .top-bar ul {
+        & ul {
     background-color: transparent;
+    }
 }
 
 .intro { 
@@ -31,13 +31,11 @@
     background-size: cover; 
     background-attachment: fixed;
     height: 100vh;
-}
 
-.intro__visual {
+     &__visual {
     position: relative;
-}
-
-.intro__visual::before {
+        
+         &::before {
     content: "Ведущий мероприятий в Санкт-Петербурге";
     position: absolute; 
     top: 0;
@@ -46,18 +44,24 @@
     color: #2d2d2d;
     font-size: 42px;
     line-height: 42px;
+    }
 }
-
-@include breakpoint(small only) {
-    .intro__visual::before { 
-        display: none;
-    }
     
-    .intro {
+    @include breakpoint(small only) {
+        
+         & { 
            height: 100%;
+            
+            &__visual {
+        
+                &::before { 
+                display: none;
+            }
+        }
+   
+          } 
     }
-    }
-
+}
 
 .form_in {
 	padding: 40px;

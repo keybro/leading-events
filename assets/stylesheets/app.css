@@ -3657,9 +3657,8 @@ a.thumbnail {
   width: 100%;
   background-color: rgba(71, 104, 128, 0.71);
   z-index: 3; }
-
-.top-bar ul {
-  background-color: transparent; }
+  .top-bar ul {
+    background-color: transparent; }
 
 .intro {
   display: flex;
@@ -3668,25 +3667,22 @@ a.thumbnail {
   background-size: cover;
   background-attachment: fixed;
   height: 100vh; }
-
-.intro__visual {
-  position: relative; }
-
-.intro__visual::before {
-  content: "Ведущий мероприятий в Санкт-Петербурге";
-  position: absolute;
-  top: 0;
-  left: 39%;
-  font-weight: 700;
-  color: #2d2d2d;
-  font-size: 42px;
-  line-height: 42px; }
-
-@media screen and (max-width: 39.9375em) {
-  .intro__visual::before {
-    display: none; }
-  .intro {
-    height: 100%; } }
+  .intro__visual {
+    position: relative; }
+    .intro__visual::before {
+      content: "Ведущий мероприятий в Санкт-Петербурге";
+      position: absolute;
+      top: 0;
+      left: 39%;
+      font-weight: 700;
+      color: #2d2d2d;
+      font-size: 42px;
+      line-height: 42px; }
+  @media screen and (max-width: 39.9375em) {
+    .intro {
+      height: 100%; }
+      .intro__visual::before {
+        display: none; } }
 
 .form_in {
   padding: 40px;
